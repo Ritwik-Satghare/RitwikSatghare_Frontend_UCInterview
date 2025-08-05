@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+  color: #39FF14;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.root {
+  text-align: center;
+  border: 3px solid #39FF14;
+  box-shadow: 0 0 15px #39FF14;
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 800px;
+  width: 80%;
+  margin: auto;
+  background-color: black;
+   font-family: 'pixelify sans', monospace;
+}
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #39FF14;
+  background-color: black;
+  color: #39FF14;
+  font-family: 'pixelify sans', monospace;
+  width: 300px;
+  height: 20px;
+  flex: 1 1 0; /* not working for small phone screens use media queries */
+}
+button {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #39FF14;
+  background-color: black;
+  color: #39FF14;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  font-family: 'pixelify sans', monospace;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+button:hover{
+  background-color: #39FF14;
+  color: black;
+}
+.forms{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+h1{
+  font-size: 50px;
+}
+h3{
+  font-size: 20px;
+}
+#loworhigh{
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: 'pixelify sans', monospace;
+}
+#guesses{
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+

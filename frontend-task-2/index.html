@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Guess A Number</title>
+</head>
+<body>
+    <div class="root">
+        <h1>Guess The Number</h1>
+        <h3>Guess a number between 1 and 100 </h3>
+        <div class="forms">
+        <input type="number" id="guess">
+        <button onclick="checkGuess()" id="submit" type="button">Submit</button>
+        </div>
+        <div id="loworhigh"></div>
+        <div id="lives"></div>
+        <div id="guesses">Previous Guesses: </div>
+        <!-- <button id="Retry">Retry</button> -->
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
