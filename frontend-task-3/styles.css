@@ -1,0 +1,91 @@
+body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Old Standard TT", serif;
+  background-color: #f5f5dc;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+#newsContainer #headline {
+  font-size: 20px;
+  font-weight: bold;
+}
+label{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+select{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 7px;
+  background-color: #edead0;
+  border: 2px solid #999999;
+}
+button{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 7px;
+  background-color: #7d6e52;
+  margin: 8px;
+}
+button:hover{
+  background-color: #f5f5dc;
+  color: green;
+  cursor: pointer;
+}
+
+#newsContainer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f3f0e5;
+  border-top: 2px solid #7d6e52;
+}
+
+/* only this part is styled using chatGPT to make it complete didnt have enough time */
+#newsContainer {
+  margin: 40px auto;
+  padding: 30px;
+  max-width: 700px;
+  background-color: #f3f0e5;
+  border: 2px solid #7d6e52;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+#newsContainer > div {
+  margin-bottom: 15px;
+}
+
+#newsContainer #headline {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3b2f2f;
+  margin-bottom: 10px;
+}
+
+#newsContainer #description {
+  font-style: italic;
+}
+
+#newsContainer #image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#newsContainer #source,
+#newsContainer #publish,
+#newsContainer #newsLink {
+  font-size: 14px;
+  color: #555;
+}
