@@ -8,7 +8,7 @@ async function getNews(){
     document.getElementById("image").innerHTML=`<img src="${data.results[0].image_url}" width="200px" height="200px">`;
     document.getElementById("source").innerHTML=data.results[0].source_name;
     document.getElementById("publish").innerHTML=data.results[0].pubDate;
-    document.getElementById("newsLink").innerHTML=data.results[0].link;
+    document.getElementById("newsLink").innerHTML=`<a href="${data.results[0].link}" target="_blank">Read More</a>`;
     console.log(data);
     
     }catch(error){
